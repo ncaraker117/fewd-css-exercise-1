@@ -1,9 +1,9 @@
 # CSS Exercise 1
 
-  * Make a copy of `css-history.html` name it `firstname-lastname.html` (e.g tom-kraak.html.)
+  * Make a copy of `css-history.html` and name it `firstname-lastname.html` (e.g tom-kraak.html.)
   * View the document locally in your favorite browser.
   * Familiarize yourself with the structure and markup of the file by indenting nested elements using soft-tabs with two spaces (the default in Atom and SublimeText.)
-  * the file cntains a variety of errors. Fix as many of them as possible and bring the document up to [HTML5 specifications](https://developer.mozilla.org/en-US/docs/Web/HTML).
+  * The file contains a variety of errors. Fix as many of them as possible and bring the document up to [HTML5 specifications](https://developer.mozilla.org/en-US/docs/Web/HTML).
   * Make use of HTML comments for your own notes and to aid in-class discussion.
   * Mark up all quoted text (text enclosed in quotation marks) with the `<blockquote>` element.
 

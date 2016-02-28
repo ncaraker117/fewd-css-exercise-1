@@ -4,14 +4,14 @@
 
   * View `css-history.html` locally in your favorite browser.
   * Familiarize yourself with the structure and markup of `css-history.html` by indenting nested elements using soft-tabs with two spaces (the default in Atom and SublimeText.)
-  * `css-history.html` contains a variety of errors. Fix as many of them as possible and bring the document up to HTML5 specifications.
+  * `css-history.html` contains a variety of errors. Fix as many of them as possible and bring the document up to [HTML5 specifications](https://developer.mozilla.org/en-US/docs/Web/HTML).
   * Make use of HTML comments for your own notes and to aid in-class discussion.
   * Mark up all quoted text (text enclosed in quotation marks) with the `<blockquote>` element.
-  * Create a stylesheet document and name it css-history.css. Make sure you are in your repo.
-  * Wire up `css-history.css` as an external stylesheet for `css-history.html`.
 
 ## Style
 
+  * Create a stylesheet document and name it css-history.css. Make sure you are in your repo.
+  * Wire up `css-history.css` as an external stylesheet for `css-history.html`.
   * Use a [tag selector](http://fewd.betamore.com/slides/unit/4/#16) to color the headline [red](http://htmlcolorcodes.com/color-names/).
   * Use an [ID selector](http://fewd.betamore.com/slides/unit/4/#14) to color the very first list item [green](http://htmlcolorcodes.com/color-names/).
   * Use a [class selector](http://fewd.betamore.com/slides/unit/4/#15) to set all dates/years to bold and italic.

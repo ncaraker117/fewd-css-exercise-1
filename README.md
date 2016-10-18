@@ -19,5 +19,5 @@
   * **BONUS:** Set the entire document in a `sans-serif` [font](http://fontcdn.org/) and sensible `line-height` of your choosing.
 
 ## Commit & Submit
-  * Remeber to commit only related changes, [write well crafted commit messages](http://alistapart.com/article/the-art-of-the-commit), and commit often
+  * Remember to commit only related changes, [write well crafted commit messages](http://alistapart.com/article/the-art-of-the-commit), and commit often
   * Hand the exercise in by submitting a pull request

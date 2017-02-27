@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+body {
+  font-family: 'Sansita', sans-serif;
+  line-height: 2em;
+}
+h1 {
+  color: red;
+}
+#history {
+  color: green
+}
+.dates {
+  font-style: italic;
+  font-weight: bold;
+}
+li > div {
+  color: pink;
+}
+body blockquote {
+  background-color: gray
+}

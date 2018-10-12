@@ -4,3 +4,8 @@ h1 {
 #first-bullet{
   color:green;
 }
+
+.bi {
+  font-weight: bold;
+  font-style: italic;
+}

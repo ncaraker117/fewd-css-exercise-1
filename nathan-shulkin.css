@@ -8,3 +8,6 @@ h1 {
   font-weight: bold;
   font-style: italic;
 }
+body > h1 {
+  color: pink;
+}

@@ -8,9 +8,12 @@ h1 {
   font-weight: bold;
   font-style: italic;
 }
-ul > li {
-  color: pink;
+li > blockquote {
+  text-decoration: underline;
 }
 body blockquote {
   color: grey;
+}
+body {
+  font-family: "roboto"
 }

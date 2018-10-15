@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+  font-family: Ubuntu;
+}
+
+h1 {
+  color: red;
+}
+#first-bullet{
+  color:green;
+}
+
+.bi {
+  font-weight: bold;
+  font-style: italic;
+}
+
+li > blockquote {
+  text-decoration: underline;
+}
+
+body blockquote {
+  background-color: gray;
+}

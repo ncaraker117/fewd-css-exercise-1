@@ -17,8 +17,8 @@ h1 {
   font-weight: bold;
   font-style: italic;
 }
-li > div {
-  color: pink;
+li > blockquote {
+  text-decoration: underline;
 }
 body blockquote {
   background-color: gray;

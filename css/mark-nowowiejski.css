@@ -16,8 +16,8 @@ h1 {
   font-style: italic;
 }
 
-ul > li {
-  color:pink;
+ul > #first-bullet {
+  text-decoration: underline;
 }
 
 body blockquote {

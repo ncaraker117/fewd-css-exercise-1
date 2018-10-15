@@ -10,7 +10,7 @@
   * Use a [tag selector](http://fewd.betamore.com/slides/unit/4/#16) to color the headline [red](http://htmlcolorcodes.com/color-names/).
   * Use an [ID selector](http://fewd.betamore.com/slides/unit/4/#14) to color the very first list item [green](http://htmlcolorcodes.com/color-names/).
   * Use a [class selector](http://fewd.betamore.com/slides/unit/4/#15) to set all dates/years to bold and italic.
-  * Use a [child selector](http://fewd.betamore.com/slides/unit/4/#17) to underline the `1994: The first work on style sheets started at CERN.` list item.
+  * Use a [child selector](http://fewd.betamore.com/slides/unit/4/#17) to underline the first `<blockquote>`.
   * Use a [descendant selector](http://fewd.betamore.com/slides/unit/4/#18) to give all `<blockquotes>` a [gray](http://htmlcolorcodes.com/color-names/) background color.
   * **BONUS:** Set the entire document in a `sans-serif` [font](http://fontcdn.org/) and sensible `line-height` of your choosing.
 

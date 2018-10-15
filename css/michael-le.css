@@ -4,3 +4,7 @@ h1 {
 #green {
   color: green;
 }
+.dates {
+  font-weight: bold;
+  font-style: italic;
+}

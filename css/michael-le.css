@@ -1,0 +1,19 @@
+h1 {
+  color: red;
+}
+#green {
+  color: green;
+}
+.dates {
+  font-weight: bold;
+  font-style: italic;
+}
+li > blockquote {
+  text-decoration: underline;
+}
+body blockquote {
+  color: grey;
+}
+body {
+  font-family: "roboto";
+}

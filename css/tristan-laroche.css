@@ -9,5 +9,8 @@ font-weight: bold;
 font-size: italic;
 }
 li > blockquote {
-    text-decoration: underline
+    text-decoration: underline;
+}
+body blockquote {
+    background-color: gray;
 }

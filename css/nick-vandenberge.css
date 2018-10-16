@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 150%;
+}
+
+h1 {
+  color: red;
+}
+
+#firstitem {
+  color: green;
+}
+
+.bi {
+  font-weight: bold;
+  font-style: italic;
+}
+
+li > blockquote {
+  text-decoration: underline;
+}
+
+body blockquote {
+  background-color: gray;
+}

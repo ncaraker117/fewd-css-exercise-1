@@ -14,3 +14,6 @@ li > blockquote {
 body blockquote {
     background-color: gray;
 }
+body {
+    font-family: sans-serif
+}

@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  font-family: 'Lato';
+}
+
 h1 {
   color: red;
+}
+
+#green {
+  color: green;
+}
+
+.bold-italic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+li > blockquote {
+  text-decoration: underline;
+}
+
+body blockquote {
+  background-color: grey;
 }

@@ -6,7 +6,7 @@ color: red;
 }
 .date {
 font-weight: bold;
-font-size: italic;
+font-style: italic;
 }
 li > blockquote {
     text-decoration: underline;

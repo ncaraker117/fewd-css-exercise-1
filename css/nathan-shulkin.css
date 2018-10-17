@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body {
+  font-family: Oswald;
+}
+li, blockquote {
+  line-height: normal;
+}
+
+h1 {
+  color: red;
+}
+#green {
+  color: green;
+}
+.chrono {
+  font-weight: bold;
+  font-style: italic;
+}
+li > blockquote {
+  text-decoration: underline;
+}
+body blockquote {
+  background-color: gray;
+}

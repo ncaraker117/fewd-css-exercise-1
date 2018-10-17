@@ -1,0 +1,20 @@
+h1 {
+    color: red;
+}
+#first {
+    color: green;
+}
+.date {
+    font-weight: bold;
+    font-style: italic;
+}
+li > blockquote {
+    text-decoration: underline;
+}
+body blockquote {
+    background-color: grey;
+}
+body {
+    font-family: "sans-serif";
+    line-height: .25in;
+}

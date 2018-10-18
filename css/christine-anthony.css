@@ -1,0 +1,24 @@
+h1 {
+  color: red;
+}
+
+#green {
+  color: green;
+}
+
+.bold-italic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+li > blockquote {
+  text-decoration: underline;
+}
+
+body blockquote {
+  background-color: grey;
+}
+
+* {
+  box-sizing: border-box;
+}

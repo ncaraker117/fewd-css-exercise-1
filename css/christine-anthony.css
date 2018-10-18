@@ -18,13 +18,7 @@ li > blockquote {
 body blockquote {
   background-color: grey;
 }
-div {
-  border: 6px solid #949599;
-  height: 100px;
-  margin: 20px;
-  padding: 20px;
-  width: 400px;
-}
+
 * {
   box-sizing: border-box;
 }

@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
 body {
-  font-family: 'Lato';
+  font-family: 'Inconsolata', monospace;
 }
 
 h1 {

@@ -1,0 +1,150 @@
+/* Global Reset */
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Styling */
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 1.5;
+  color: #444;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  color: salmon;
+  border-bottom: 2px solid salmon;
+  font-weight: 700;
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: .25em;
+}
+
+header {
+  background: slategrey;
+  padding: 4em 4em 2em 4em;
+}
+
+section {
+  padding: 2em 4em;
+}
+
+.body-text {
+  padding: 2em 2em 2em 6em;
+  width: 50%;
+  float: left;
+}
+
+#first-bullet {
+  color: darkseagreen;
+}
+
+.dates {
+  font-weight: bold;
+  font-style: italic;
+}
+
+blockquote {
+  color: #fff;
+  padding: 1em;
+  border-radius: .25em;
+}
+
+li {
+  margin-left: 1.25em;
+  margin-bottom: .25em;
+}
+
+li > blockquote {
+  text-decoration: underline;
+  text-decoration-color: darkslategrey;
+}
+
+body blockquote {
+  background-color: lightslategray;
+}
+
+.code-preview {
+  padding: 2em 6em 2em 2em;
+  width: 50%;
+  float: right;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+  .body-text, .code-preview {
+    padding: 2em 6em;
+    width: 100%;
+    float: none;
+  }
+}
+
+/* Code Styling */
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;}
+
+code {
+  font-family: Courier, 'New Courier', monospace;
+  font-size: .75em;
+  color: dimgrey;
+}
+
+#codeSnippet {
+  background-color: whitesmoke;
+  padding: 1em 2em;
+  border-radius: .25em;
+}
+
+#comments {
+  color: lightslategrey;
+}
+
+#element {
+  color: tomato;
+}
+
+#class {
+  color: goldenrod
+}
+
+#media-quieries {
+  color: cornflowerblue;
+}
+
+#id {
+  color: cadetblue;
+}
+
+#number {
+  color: goldenrod;
+}
+
+#colorName {
+  color: goldenrod;
+}
+
+#hexCode {
+  color: darkturquoise;
+}
+
+#fontName {
+  color: olivedrab;
+}
+
+#defaultFont{
+  color: goldenrod;
+}

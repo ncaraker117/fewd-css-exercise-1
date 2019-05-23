@@ -3,23 +3,130 @@
   <head>
     <title>CSS Timeline</title>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/nathan-caraker.css" type="text/css">
   </head>
   <body>
-    <h1>Brief History of CSS</h1>
+    <header>
+      <h1>Brief History of CSS</h1>
+    </header>
+
+    <section class="body-text">
     <ul>
-      <li id="first-bullet"><span class="bi">1994:</span> The first work on style sheets started at CERN.</li>
-      <li><span class="bi">December 1996</span>: CSS was proposed as W3C standard:
+      <li id="first-bullet">The first work on style sheets started at CERN.</li>
+      <li><span class="dates">December 1996</span>: CSS was proposed as W3C standard:
         <blockquote>
           "CSS1 defines the language in which style sheets are written and a set of properties that designers can use to describe how documents should be presented. The properties in CSS1 cover the most common screen-based presentations."
         </blockquote>
       </li>
-      <li><span class="bi">November 1997</span>: The W3C released the first public CSS2 Working Draft.</li>
-      <li><span class="bi">May 1998</span>: CSS2 specification becomes a W3C recommendation.</li>
-      <li><span class="bi">2000</span>: Work on CSS3 was under way.</li>
+      <li><span class="dates">November 1997</span>: The W3C released the first public CSS2 Working Draft.</li>
+      <li><span class="dates">May 1998</span>: CSS2 specification becomes a W3C recommendation.</li>
+      <li><span class="dates">2000</span>: Work on CSS3 was under way.</li>
     </ul>
     <blockquote>
       &quot;CSS3 will, in effect, have all of the features that users expect from a desktop publishing environment, as well as a range of features especially suited to the context of an international and multimedia Web.&quot;
     </blockquote>
+  </section>
+  <section class="code-preview">
+    <h2>
+      CSS Used On This Page:
+    </h2>
+    <div id="codeSnippet">
+      <pre>
+        <code>
+          <span id="comments">/* Global Reset */</span>
+          <span id="element">*</span> {
+            margin: <span id="number">0</span> auto;
+            padding: <span id="number">0</span>;
+            box-sizing: border-box;
+          }
+
+          <span id="comments">/* Basic Styling */</span>
+          <span id="element">body</span>{
+            font-family: <span id="fontName">'Roboto'</span>, <span id="defaultFont">sans-serif</span>;
+            font-weight: <span id="number">400</span>;
+            font-size:  <span id="number">1.125em</span>;
+            line-height: <span id="number">1.5</span>;
+            color: <span id="number">#</span><span id="hexCode">444</span>;
+          }
+
+          <span id="element">h1</span>, <span id="element">h2</span>, <span id="element">h3</span>, <span id="element">h4</span> {
+            font-family: <span id="fontName">'Oswald'</span>, <span id="defaultFont">sans-serif</span>;
+          }
+
+          <span id="element">h1</span> {
+            color: <span id="colorName">salmon</span>;
+            border-bottom: <span id="number">2px</span> solid <span id="colorName">salmon</span>;
+            font-weight: <span id="number">700</span>;
+            font-size: <span id="number">4em</span>;
+          }
+
+          <span id="element">h2</span> {
+            font-size: <span id="number">3em</span>;
+            margin-bottom: <span id="number">.25em</span>;
+          }
+
+          <span id="element">header</span> {
+            background: <span id="colorName">slategrey</span>;
+            padding: <span id="number">4em 4em 2em 4em</span>;
+          }
+
+          <span id="element">section</span> {
+            padding: <span id="number">2em 4em</span>;
+          }
+
+          <span id="class">.body-text</span> {
+            padding: <span id="number">2em 6em</span>;
+            width: <span id="number">60%</span>;
+            float: left;
+          }
+
+          <span id="id">#first-bullet</span> {
+            color: <span id="colorName">darkseagreen</span>;
+          }
+
+          <span id="class">.dates</span> {
+            font-weight: bold;
+            font-style: italic;
+          }
+
+          <span id="element">blockquote</span> {
+            color: <span id="number">#</span><span id="hexCode">fff</span>;
+            padding: <span id="number">1em</span>;
+            border-radius: <span id="number">.25em</span>;
+          }
+
+          <span id="element">li</span> {
+            margin-left: <span id="number">1.25em</span>;
+            margin-bottom: <span id="number">.25em</span>;
+          }
+
+          <span id="element">li</span> <span id="element">blockquote</span> {
+            text-decoration: underline;
+            text-decoration-color: <span id="colorName">darkslategrey</span>;
+          }
+
+          <span id="element">body blockquote</span> {
+            background-color: <span id="colorName">lightslategray</span>;
+          }
+
+          <span id="class">.code-preview</span> {
+            padding: <span id="number">2em 6em 2em 0</span>;
+            width: <span id="number">40%</span>;
+            float: right;
+          }
+
+          <span id="comments">/* Media Queries */</span>
+          <span id="media-quieries">@media</span> <span id="class">screen</span> and (max-width: <span id="class">1024px</span>) {
+            <span id="class">.body-text</span>, <span id="class">.code-preview</span> {
+              width: <span id="number">100%</span>;
+              float: none;
+            }
+            }
+          }
+        </code>
+      </pre>
+    </div>
+  </section>
   </body>
 </html>
